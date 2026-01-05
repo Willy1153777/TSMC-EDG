@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSMC ESG & SDGs 永續發展觀測站</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        .esg-card:hover { transform: translateY(-10px); transition: all 0.3s ease; }
+        .gradient-text { background: linear-gradient(to right, #ef4444, #f87171); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-900">
+
+    <nav class="bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-black text-red-600 tracking-tighter italic">TSMC ESG</div>
+            <div class="hidden md:flex space-x-8 text-sm font-bold uppercase tracking-widest text-gray-600">
+                <a href="#about" class="hover:text-red-500 transition">關於</a>
+                <a href="#esg" class="hover:text-red-500 transition">三大支柱</a>
+                <a href="#sdgs" class="hover:text-red-500 transition">SDGs目標</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative h-[70vh] flex items-center justify-center bg-slate-900 text-white overflow-hidden">
+        <div class="absolute inset-0 opacity-50 bg-[url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=2070')] bg-cover bg-center"></div>
+        <div class="relative z-10 text-center px-4">
+            <span class="bg-red-600 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest mb-4 inline-block">Sustainability First</span>
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-4 tracking-tight">科技改變世界</h1>
+            <p class="text-xl md:text-2xl font-light text-gray-300">台積電：引領全球半導體永續轉型</p>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-8 text-gray-800">關於台積電與永續發展</h2>
+            <p class="text-gray-600 text-lg leading-relaxed mb-10">
+                作為全球領先的積體電路製造服務商，台積電不僅致力於半導體技術的創新，更將 <strong>ESG (環境、社會、公司治理)</strong> 視為企業營運的核心策略。我們深信，負責任的生產與穩健的治理，是推動全球邁向數位未來的關鍵力量。
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="p-4 border border-gray-100 rounded-xl shadow-sm">
+                    <div class="text-2xl font-bold text-red-600 mb-1">2040</div>
+                    <div class="text-xs text-gray-500 uppercase font-semibold">RE100 目標</div>
+                </div>
+                <div class="p-4 border border-gray-100 rounded-xl shadow-sm">
+                    <div class="text-2xl font-bold text-red-600 mb-1">AAA</div>
+                    <div class="text-xs text-gray-500 uppercase font-semibold">MSCI 評級</div>
+                </div>
+                <div class="p-4 border border-gray-100 rounded-xl shadow-sm">
+                    <div class="text-2xl font-bold text-red-600 mb-1">1%↓</div>
+                    <div class="text-xs text-gray-500 uppercase font-semibold">廢棄物埋設率</div>
+                </div>
+                <div class="p-4 border border-gray-100 rounded-xl shadow-sm">
+                    <div class="text-2xl font-bold text-red-600 mb-1">Zero</div>
+                    <div class="text-xs text-gray-500 uppercase font-semibold">誠信經營違規</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="esg" class="py-24 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-black text-gray-800 tracking-tight">ESG 核心策略</h2>
+                <div class="h-1.5 w-16 bg-red-600 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="esg-card bg-white p-10 rounded-[2.5rem] shadow-xl shadow-gray-200/40 border border-gray-100 flex flex-col">
+                    <div class="w-16 h-16 bg-green-100 text-green-600 rounded-2xl flex items-center justify-center text-3xl mb-8">
+                        <i class="fa-solid fa-wind"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-green-700">環境保護 <span class="text-sm font-light block text-gray-400">Environmental</span></h3>
+                    <p class="text-gray-600 leading-relaxed mb-8 flex-grow">致力於綠色製造，承諾 2040 年實現 RE100，並透過再生水技術解決台灣缺水風險。</p>
+                    <div class="space-y-4">
+                        <div class="flex justify-between text-xs font-bold mb-1"><span class="text-gray-500 uppercase">再生能源進度</span><span class="text-green-600">45%</span></div>
+                        <div class="w-full bg-gray-100 rounded-full h-2.5">
+                            <div class="bg-green-500 h-2.5 rounded-full" style="width: 45%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="esg-card bg-white p-10 rounded-[2.5rem] shadow-xl shadow-gray-200/40 border border-gray-100 flex flex-col">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center text-3xl mb-8">
+                        <i class="fa-solid fa-hand-holding-heart"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-blue-700">社會責任 <span class="text-sm font-light block text-gray-400">Social</span></h3>
+                    <p class="text-gray-600 leading-relaxed mb-8 flex-grow">視員工為資產，建立半導體學院並推動 STEM 教育。慈善基金會專注於弱勢照護與環境保護。</p>
+                    <div class="bg-blue-50 p-4 rounded-2xl text-sm text-blue-800">
+                        <i class="fa-solid fa-certificate mr-2"></i> 獲選「最佳僱主」品牌
+                    </div>
+                </div>
+
+                <div class="esg-card bg-white p-10 rounded-[2.5rem] shadow-xl shadow-gray-200/40 border border-gray-100 flex flex-col">
+                    <div class="w-16 h-16 bg-purple-100 text-purple-600 rounded-2xl flex items-center justify-center text-3xl mb-8">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-purple-700">公司治理 <span class="text-sm font-light block text-gray-400">Governance</span></h3>
+                    <p class="text-gray-600 leading-relaxed mb-8 flex-grow">秉持誠信正直。建立全方位資安防護網，並確保董事會成員多元化與專業化。</p>
+                    <div class="bg-purple-50 p-4 rounded-2xl text-sm text-purple-800">
+                        連續 20+ 年道瓊永續指數 (DJSI)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sdgs" class="py-24 bg-slate-900 text-white">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-16">重點關注的聯合國永續發展目標</h2>
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="group cursor-default bg-white/5 p-8 rounded-3xl border border-white/10 hover:bg-white/10 transition">
+                    <div class="text-4xl font-black text-yellow-500 mb-3 opacity-80 group-hover:opacity-100 transition">07</div>
+                    <h4 class="text-sm font-bold tracking-widest mb-2">可負擔能源</h4>
+                    <p class="text-xs text-gray-400">購買大量綠電，推動能源轉型</p>
+                </div>
+                <div class="group cursor-default bg-white/5 p-8 rounded-3xl border border-white/10 hover:bg-white/10 transition">
+                    <div class="text-4xl font-black text-orange-600 mb-3 opacity-80 group-hover:opacity-100 transition">09</div>
+                    <h4 class="text-sm font-bold tracking-widest mb-2">創新與基建</h4>
+                    <p class="text-xs text-gray-400">先進製程研發，保持全球競爭力</p>
+                </div>
+                <div class="group cursor-default bg-white/5 p-8 rounded-3xl border border-white/10 hover:bg-white/10 transition">
+                    <div class="text-4xl font-black text-orange-400 mb-3 opacity-80 group-hover:opacity-100 transition">12</div>
+                    <h4 class="text-sm font-bold tracking-widest mb-2">責任消費生產</h4>
+                    <p class="text-xs text-gray-400">落實循環經濟，減少廢棄物</p>
+                </div>
+                <div class="group cursor-default bg-white/5 p-8 rounded-3xl border border-white/10 hover:bg-white/10 transition">
+                    <div class="text-4xl font-black text-emerald-500 mb-3 opacity-80 group-hover:opacity-100 transition">13</div>
+                    <h4 class="text-sm font-bold tracking-widest mb-2">氣候行動</h4>
+                    <p class="text-xs text-gray-400">致力淨零排放，減緩氣候變遷</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white py-16 border-t border-gray-100 text-center">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-xl font-bold text-gray-800 mb-4 tracking-tighter italic">TSMC ESG MONITOR</div>
+            <p class="text-gray-400 text-sm">此為通識課程期末專題作品 | 數據取自 2023 永續報告書</p>
+            <div class="mt-8 flex justify-center space-x-4">
+                <div class="h-8 w-8 rounded-full bg-gray-100 flex items-center justify-center text-gray-400 hover:text-red-500 transition"><i class="fa-brands fa-github"></i></div>
+                <div class="h-8 w-8 rounded-full bg-gray-100 flex items-center justify-center text-gray-400 hover:text-red-500 transition"><i class="fa-solid fa-globe"></i></div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
